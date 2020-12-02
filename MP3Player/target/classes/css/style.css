@@ -1,0 +1,32 @@
+/* Tło przycisków */
+#play {
+	-fx-background-image: url("../img/play.png");
+}
+
+#prev {
+	-fx-background-image: url("../img/prev.png");
+}
+
+#next {
+	-fx-background-image: url("../img/next.png");
+}
+
+.button,
+.toggle-button {
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 70% 70%;
+	-fx-background-color: transparent;
+	-fx-opacity: 40%;
+}
+
+/* Przyciski po najechaniu */
+.button:hover,
+.toggle-button:hover,
+.toggle-button:selected {
+	-fx-opacity: 100%;
+}
+
+.table-view:row-selection:constrained-resize .placeholder {
+-fx-background-colour:  #000000;
+}
